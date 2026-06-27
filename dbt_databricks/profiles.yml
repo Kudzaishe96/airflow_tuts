@@ -2,10 +2,10 @@ dbt_databricks:
   outputs:
     dev:
       catalog: docker_dbt
-      host: dbc-cfa614a2-215a.cloud.databricks.com
+      host: HOST
       http_path: /sql/1.0/warehouses/26f3371fce5bc4a2
       schema: staging
       threads: 1
-      token: dapide0de7c5959dfd8564b37d48c24e92f2
+      token: TOKEN
       type: databricks
   target: dev
