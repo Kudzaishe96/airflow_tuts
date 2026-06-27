@@ -1,0 +1,11 @@
+FROM apache/spark:4.0.0
+
+USER root
+
+# Install any specialized jars or binaries your cluster needs
+#RUN mkdir -p /opt/spark/external-jars
+#COPY jars/apache-spark-sql-connector.jar /opt/spark/external-jars/
+
+# Return to standard non-root spark user execution
+USER 185
+

@@ -1,0 +1,1 @@
+Select * from docker_dbt.staging.The2014Inc
